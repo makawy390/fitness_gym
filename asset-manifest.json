@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/fitness_gym/static/css/main.200884d7.css",
+    "main.js": "/fitness_gym/static/js/main.ea233441.js",
+    "static/media/gym_slider_home1.jpg": "/fitness_gym/static/media/gym_slider_home1.dd87ceeb317e4828bde8.jpg",
+    "static/media/classes3.jpg": "/fitness_gym/static/media/classes3.b43c90a8468120cee12d.jpg",
+    "static/media/gym_slider_home2.jpg": "/fitness_gym/static/media/gym_slider_home2.39ff41abb7eda317ce97.jpg",
+    "static/media/classes2.jpg": "/fitness_gym/static/media/classes2.875c98aece4a8d8375ce.jpg",
+    "static/media/classes5.jpg": "/fitness_gym/static/media/classes5.c17c0e16f6c933e61c5e.jpg",
+    "static/media/classes1.jpg": "/fitness_gym/static/media/classes1.518940d191c243177140.jpg",
+    "static/media/classes6.jpg": "/fitness_gym/static/media/classes6.59c3d2ad80466e875573.jpg",
+    "static/media/classes4.jpg": "/fitness_gym/static/media/classes4.4b5a25bd72edad8b7388.jpg",
+    "static/media/Team.jpg": "/fitness_gym/static/media/Team.2f9d0ee46f55dd5d54b1.jpg",
+    "static/media/blog1.jpg": "/fitness_gym/static/media/blog1.337fa73d8762abb9e488.jpg",
+    "static/media/gym_services_image1.jpg": "/fitness_gym/static/media/gym_services_image1.337fa73d8762abb9e488.jpg",
+    "static/media/blog2.jpg": "/fitness_gym/static/media/blog2.ce9fb238ce827359f2fc.jpg",
+    "static/media/gym_services_image2.jpg": "/fitness_gym/static/media/gym_services_image2.ce9fb238ce827359f2fc.jpg",
+    "static/media/gym_pageheader.jpg": "/fitness_gym/static/media/gym_pageheader.56a744440061c76db486.jpg",
+    "static/media/blog3.jpg": "/fitness_gym/static/media/blog3.88f0746f4e176f42f0db.jpg",
+    "static/media/gym_services_image3.jpg": "/fitness_gym/static/media/gym_services_image3.88f0746f4e176f42f0db.jpg",
+    "static/media/Sale.jpg": "/fitness_gym/static/media/Sale.4cb0f7eaaf0cb9898820.jpg",
+    "static/media/Sale2.jpg": "/fitness_gym/static/media/Sale2.9f761114ffd0f36a6fb6.jpg",
+    "index.html": "/fitness_gym/index.html",
+    "main.200884d7.css.map": "/fitness_gym/static/css/main.200884d7.css.map",
+    "main.ea233441.js.map": "/fitness_gym/static/js/main.ea233441.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.200884d7.css",
+    "static/js/main.ea233441.js"
+  ]
+}
