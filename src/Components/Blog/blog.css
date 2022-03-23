@@ -1,0 +1,91 @@
+.blog {
+  background-image: url("../assets/gym_pageheader.jpg");
+  height: 50vh;
+  padding: 80px 0;
+  position: relative;
+  background-position: right;
+}
+@media (max-width:767px) {
+  .blog {
+    padding: 40px 0;
+  } 
+}
+.blog h2 {
+  font-size: 65px;
+  letter-spacing: 5px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+@media (max-width : 767px){
+    .blog h2{
+        font-size: 45px;
+    }
+}
+.card-img {
+  padding: 70px 0;
+}
+.card-img img {
+  max-width: 650px;
+  max-height: 300px;
+}
+@media (max-width :767px) {
+    .card-img img {
+        max-width: 350px;
+      }   
+}
+.card-img .text-span {
+  padding: 25px 0;
+  /* margin: 10px; */
+}
+.card-img .text-span span {
+  padding: 10px 30px;
+}
+.card-img .text-span span:first-child {
+  font-size: 18px;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+  color: #f48460;
+  border: 1px solid #f48460;
+  padding: 10px;
+}
+.card-img .text-span span {
+  /* color: #232a35; */
+  color: #f48460;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
+.card-img .text-span span:hover {
+  color: #232a35;
+}
+.card-img .text-title {
+  color: #232a35;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.right-class {
+  line-height: 2;
+}
+.right-class .input {
+  padding: 7px 10px;
+  width: 100%;
+  background: #fff;
+  outline: none;
+  border: 1px solid #dfdfdf;
+  opacity: 0.5;
+}
+.right-class .title {
+  color: #232a35;
+}
+.right-class .list {
+  color: #f48460;
+  cursor: pointer;
+}
+
+hr:not([size]) {
+  height: 0.5px;
+}
+.right-class .ms-5 {
+  margin-left: 8rem !important;
+}

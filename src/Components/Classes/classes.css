@@ -1,0 +1,58 @@
+.our-classes {
+  padding: 100px 0;
+}
+@media (max-width:767px) {
+  .our-classes {
+    padding: 50px 0;
+  } 
+}
+.our-classes span {
+  color: #f48460;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.content {
+  font-size: 50px;
+  padding: 0 15px;
+  color: #232a35;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+@media (max-width:767px) {
+  .content {
+    font-size: 25px;
+  }
+  .our-classes span {
+    font-size: 14px;
+  }
+}
+.our-classes .card {
+  margin-bottom: 20px;
+}
+.our-classes .card .card-body {
+  padding: 25px 30px;
+  border-top: 4px solid #232a35;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+.our-classes .card .card-body:hover {
+  background-color: #232a35;
+  color: #fff;
+}
+
+.our-classes .card .card-body .one {
+  color: #f48460;
+}
+.FinalClassess {
+  background-image: url("../assets/gym_pageheader.jpg");
+  background-position: right;
+  padding: 100px 0;
+  height: 50vh;
+  text-align: center;
+  color: #fff;
+}
+.FinalClassess h1 {
+  font-size: 65px;
+  letter-spacing: 3px;
+  font-weight: 800;
+}

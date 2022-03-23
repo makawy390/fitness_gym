@@ -1,0 +1,325 @@
+.home {
+  height: 100vh;
+  background: url("../assets/gym_slider_home1.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  visibility: inherit;
+  z-index: 20;
+  position: relative;
+}
+.home .home-content {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+
+.home .home-content span {
+  font-size: 25px;
+  color: #f48460;
+  text-align: center;
+  position: relative;
+  left: 20%;
+  letter-spacing: 5px;
+}
+.home .home-content h1 {
+  color: #fff;
+  top: 35%;
+  left: 35%;
+  word-spacing: 10px;
+  font-size: 55px;
+  letter-spacing: 8px;
+  font-weight: bolder;
+}
+@media (max-width :767px){
+  .home .home-content {
+    left: 30px;
+  } 
+  .home .home-content h1{
+  /* left: 100%; */
+  font-size: 25px;
+    
+  }
+  .home .home-content span{
+    left: 0;
+  }
+}
+.team-challenges {
+  background-image: url("../assets/Team.jpg");
+  color: #fff;
+  height: 70vh;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+.team-challenges .content-team {
+  position: absolute;
+  z-index: 5;
+  top: 35%;
+  left: 35%;
+  line-height: 3;
+}
+@media (max-width: 767px){
+  .team-challenges .content-team {
+    left: 10%;
+  }
+}
+.memberships {
+  padding: 100px 0;
+}
+
+@media (max-width: 767px){
+  .memberships {
+    padding: 50px 0;
+  } 
+}
+.content-team h4{
+   letter-spacing: 1px;
+   font-size: 20px;
+   color: #f48460;
+}
+.content-team h1{
+  letter-spacing: 4px;
+}
+.content-team .btn{
+  padding: 7px 25px;
+  transition: 0.5s;
+}
+.content-team .btn:hover{
+  opacity: 0.7;
+}
+.memberships .membership-content {
+  margin-top: 50px1;
+}
+.memberships .membership-content span {
+  font-size: 20px;
+  color: #f48460;
+  letter-spacing: 2px;
+}
+.memberships .card-price {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  line-height: 2;
+}
+.memberships .card-price h4 {
+  font-size: 20px;
+}
+.memberships .card-price .lead {
+  color: #f48460;
+  font-size: 16px;
+  font-weight: 600;
+}
+.memberships .card-price .btn {
+  background-color: #f48460;
+  color: #fff;
+  margin: 5px 0px 20px;
+  width: 150px;
+  transition: all 0.5s ease-in;
+  border-radius: 50px;
+}
+.memberships .card-price .btn:hover {
+  background-color: #232a35;
+}
+
+.memberships .card-price .price {
+  font-size: 45px;
+}
+.memberships .card-price .list-unstyled li {
+  line-height: 2.2;
+  padding: 4px 0;
+}
+.card-price .list-unstyled li span {
+  font-weight: 700;
+}
+
+.sales {
+  padding: 20px 0;
+}
+.sales img {
+  border-radius: 4px;
+  cursor: pointer;
+}
+.guided {
+  padding: 50px 0;
+  background-image: url("../assets/gym_slider_home2.jpg");
+  color: #fff;
+  height: 50vh;
+  background-position: center;
+  position: relative;
+  line-height: 2;
+}
+.guided .guided-content {
+  position: relative;
+  z-index: 5;
+}
+.guided .guided-content span:first-child {
+  color: #f48460;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 3px;
+  
+}
+.guided .guided-content h1 {
+  font-size: 55px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+@media  (max-width : 767px) {
+  .guided .guided-content h1 {
+    font-size: 25px;
+  }
+  .guided .guided-content span:first-child{
+    font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+
+  }
+}
+.guided .guided-content span:last-child {
+  background-color: #f48460;
+  color: #fff;
+  font-weight: 600;
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+  transition: all 0.5s ease-in;
+}
+.guided .guided-content span:last-child:hover {
+  background-color: #232a35;
+}
+.contact-us {
+  padding: 100px 0;
+  /* background-color: hsl(220, 20%, 18%); */
+  background-image: url('../assets/gym_pageheader.jpg');
+  color: #fff;
+}
+@media (max-width: 767px){
+  .contact-us {
+    padding: 50px 0;
+  } 
+}
+.contact-us .contact-content span {
+  color: #f48460;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.contact-us .contact-content h2 {
+  font-size: 55px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+@media (max-width :767px) {
+  .contact-us .contact-content h2 {
+  font-size: 25px;
+  /* font-weight: 900; */
+}
+.contact-us .contact-content span {
+  font-size: 16px;
+  letter-spacing: 0;
+  font-weight: 100;
+}
+}
+.contact-us .contact-card {
+  background-color: #2d384b;
+  /* border: 8px solid #252b37; */
+  /* background-image: url('../assets/gym_pageheader.jpg'); */
+  padding: 35px 10px;
+  line-height: 3;
+  border-radius: 5px;
+  /* box-shadow: 5px 5px 5px #9e9e9e3b; */
+  height: 180px;
+  /* border: 1px solid #fff; */
+}
+.contact-us .contact-card span {
+  color: #f48460;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.news {
+  padding: 80px 0;
+}
+@media (max-width: 767px){
+  .news {
+    padding: 40px 0;
+  } 
+}
+.news .content-news span {
+  color: #f48460;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.news .content-news h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #252b37;
+  letter-spacing: 4px;
+}
+@media (max-width: 767px){
+  .news .content-news h2 {
+    font-size: 25px;
+  }
+  .news .content-news span {
+    font-size: 14px;
+    letter-spacing: 0;
+  } 
+}
+.news .card-body {
+  border-top: 5px solid #252b37;
+}
+.news .card img {
+  cursor: pointer;
+}
+.news .card-body span{
+  color: #f48460;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+.news .card-body h4{
+  font-size: 22px;
+  color: #232a35;
+  margin: 10px 15px;
+  text-transform: uppercase;
+  /* letter-spacing: .5px; */
+  
+}
+.news .card-body  .card-text{
+  color: #9e9e9e;
+}
+.news .card-body .btn{
+  color: #f48460;
+  transition: all 0.5s ease-in;
+}
+.news .card-body .btn:hover{
+  color: #232a35;
+}
+.copy-right {
+  padding: 20px 0;
+  background-color: #232a35;
+  color: #fff;
+}
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1070px;
+  }
+}

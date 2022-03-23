@@ -1,0 +1,51 @@
+
+.contactus{
+    background-image: url('../assets//gym_pageheader.jpg');
+    height: 50vh;
+    color: #fff;
+    padding: 80px 0;
+  background-position: right;
+}
+
+.contact{
+    padding: 80px 0;
+} 
+.contactus h2{
+    font-size: 65px;
+    letter-spacing: 5px;
+}
+
+.contact input ,.contact textarea{
+    margin: 8px 0;
+    padding: 14px 20px 13px 15px;
+    border-color: rgba(0,0,0,.15);
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+.contact textarea{
+    height: 200px;
+    width: 100%;
+    border-color: rgba(0,0,0,.15);
+    outline: none;
+    /* color: #e01860; */
+}
+.contact .btn{
+    background-color: #e01860 ;
+    color: #fff;
+    width: 100%;
+    padding: 13px 48px 15px 20px;
+    position: relative;
+    bottom: 7px;
+    transition: 0.5s;
+    margin: 10px 0;
+}
+.contact .btn:hover{
+    opacity: .9;
+}
+.contact .form-select{
+    padding: 15px 50px 15px 15px;
+    margin: 10px 0;
+    opacity: 0.5;
+}
